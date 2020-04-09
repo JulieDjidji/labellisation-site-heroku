@@ -9,11 +9,6 @@ import pandas as pd
 import numpy as np
 import random
 import time
-
-wdir=os.getcwd()
-os.chdir('apps/ml/classifier/fastText')
-subprocess.call('pip install fasttext', shell = True)
-os.chdir(wdir)
 import fasttext
 
 class FasttextClassifier:
