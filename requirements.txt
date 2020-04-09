@@ -8,4 +8,5 @@ joblib
 djangorestframework
 markdown
 django-filter
+pybind11
 git+https://github.com/facebookresearch/fastText.git
