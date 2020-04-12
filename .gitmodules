@@ -1,3 +1,6 @@
 [submodule "fastText"]
 	path = fastText
 	url = https://github.com/facebookresearch/fastText.git
+[submodule "apps/ml/classifier/fastText"]
+	path = apps/ml/classifier/fastText
+	url = https://github.com/facebookresearch/fastText.git
