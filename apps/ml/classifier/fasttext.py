@@ -10,10 +10,7 @@ import numpy as np
 import random
 import time
 
-wdir=os.getcwd()
-os.chdir('apps/ml/classifier/fastText')
-subprocess.call('pip install -q fasttext', shell=True)
-os.chdir(wdir)
+subprocess.call('cd apps/ml/classifier/fastText && python3 -m pip install -q fasttext && cd ', shell=True)
 import fasttext
 
 class FasttextClassifier:
