@@ -1,4 +1,4 @@
-# Labellisation app
+# Labeling app
 
 App to label text from several items predicted with fasttext model
 
